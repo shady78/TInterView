@@ -1,0 +1,15 @@
+Create a task (title , description , due date, priority , status)
+Read a list of tasks (pagination view , filter by status, search by title)
+Update a task (edit title, description, due date, priority, status)
+Delete a task (soft delete)  // IsDeleted
+
+
+	
+
+// enums 
+Priority Levels: Low, Medium, High
+
+Status Options: New, In Progress, Completed, Archived
+
+Entity: TaskItem
+title , description , due date, priority , status, IsDeleted

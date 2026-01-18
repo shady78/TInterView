@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Details.txt" />
+  </Folder>
+  <Project Path="TInterView.API/TInterView.API.csproj" />
+  <Project Path="TInterView.Application/TInterView.Application.csproj" />
+  <Project Path="TInterView.Domain/TInterView.Domain.csproj" />
+  <Project Path="TInterView.Infrastructure/TInterView.Infrastructure.csproj" />
+</Solution>
