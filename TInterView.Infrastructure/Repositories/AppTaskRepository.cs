@@ -32,7 +32,7 @@ public class AppTaskRepository : IAppTaskRepository
             return;
         }
         task.IsDeleted = true;
-        _context.SaveChangesAsync();
+       await _context.SaveChangesAsync();
     }
 
     public async Task<(List<TaskItem> tasks, int totalCount)> GetAllAsync(int pageNumber, int pageSize, AppTaskStatus? status, string? searchTerm)

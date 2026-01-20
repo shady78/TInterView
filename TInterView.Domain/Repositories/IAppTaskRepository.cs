@@ -9,6 +9,7 @@ namespace TInterView.Domain.Repositories;
 public interface IAppTaskRepository
 {
     Task<TaskItem?> GetByIdAsync(int id);
+
     Task<(List<TaskItem> tasks, int totalCount)>
         GetAllAsync(int pageNumber, int pageSize, AppTaskStatus? status, string? searchTerm);
 
